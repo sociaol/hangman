@@ -1,0 +1,82 @@
+/* Leaderboard */
+#leaderboard {
+ background-color: #f2f2f2;
+ border-radius: 10px;
+ width: 100%;
+}
+
+#leaderboard th {
+ font-size: 14px;
+ font-weight: bold;
+ color: #131516;
+ padding: 4px;
+}
+
+#leaderboard tbody tr:nth-child(even) {
+ background: #E1F8DC
+}
+
+#leaderboard tbody tr:nth-child(even):hover {
+ background: #E7F9E3;
+}
+
+#leaderboard tbody tr:nth-child(odd) {
+ background: #CAF1DE
+}
+
+#leaderboard tbody tr:nth-child(odd):hover {
+ background: #D4F3E4
+}
+
+#leaderboard .rank {
+ display: block;
+ background: #686EF9;
+ color: white !important;
+ font-weight: bold;
+ width: 34px;
+ height: 34px;
+ text-align: center;
+ border-radius: 50%;
+}
+
+#leaderboard .rank .top {
+ display: block;
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: center;
+ width: 100%;
+ height: 100%;
+}
+
+#leaderboard .rank ._1 {
+ background-image: url(images/gold.png);
+}
+
+#leaderboard .rank ._2 {
+ background-image: url(images/silver.png);
+}
+
+#leaderboard .rank ._3 {
+ background-image: url(images/bronze.png);
+}
+
+#leaderboard .rank .other {
+ position: relative;
+ top: 8px;
+}
+
+.leaderboard_header {
+ background-color: #f2f2f2;
+ padding: 10px 25px;
+ border-radius: 10px;
+ background-color: #d3d3d3;
+}
+
+.leaderboard_header h1 {
+ margin-bottom: 0px;
+ line-height: 1;
+ font-size: 2em;
+ color: #131516;
+ font-weight: bold;
+ text-transform: uppercase;
+}

@@ -1,0 +1,116 @@
+body{
+    background-image: url(images/bkg.png);
+    background-repeat: repeat;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-family: 'Kenney Future';
+    font-weight: normal;
+    font-style: normal;
+}
+
+legend{
+    font-size: 3.5em;
+    margin-bottom: .5em;
+}
+
+
+#form{
+    color: black;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+fieldset {
+    border:none;
+}
+
+#w3c{
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+}
+
+strong{
+    font-size: 20px;
+    border-radius: 10%;
+    color: black;
+
+}
+
+.welcome{
+
+    font-size: 3em;
+    border-radius: 10%;
+    color: green;
+    text-align: center;
+}
+
+a{
+    font-size: 2em;
+}
+
+
+input{
+    font-family: 'Kenney Future';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Kenney Future';
+    src: url('fonts/Kenney-Future.woff2') format('woff2'),
+     url('fonts/Kenney-Future.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+   
+@font-face {
+    font-family: 'Kenney Future Narrow';
+    src: url('fonts/Kenney-Future-Narrow.woff2') format('woff2'),
+     url('fonts/Kenney-Future-Narrow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.function {
+    border-radius: 10%;
+    border: 2px solid black;
+    background: url(images/green_button07.png);
+    background-repeat: no-repeat;
+    background-size: 9.5em 3em;
+    height: 3em;
+    width: 9.5em;
+    font-size: 1.5em;
+    font-family: 'Kenney Future';
+    font-weight: normal;
+    font-style: normal;
+    margin: 6px;
+    text-align: center;
+    padding: 6px 0;
+    color: white;
+   }
+
+.function:hover {
+    background: url(images/green_button09.png) no-repeat;
+    background-size: 9.5em 3em;
+    height: 3em;
+    width: 9.5em;
+}
+
+#back{
+    position: absolute;
+    left: 0;
+}
+
+#back:hover{
+   transform:scale(1.2);
+}
+

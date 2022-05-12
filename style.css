@@ -1,0 +1,114 @@
+body {
+ background-image: url(images/bkg.png);
+ background-repeat: repeat;
+ justify-content: center;
+ align-items: flex-start;
+ text-align: center;
+ font-family: 'Kenney Future';
+ font-weight: normal;
+ font-style: normal;
+}
+
+#welcome h1 {
+ width: 1500px;
+ margin: auto;
+ font-size: 4em;
+ border: 2px solid black;
+ color: green;
+}
+
+img {
+ margin-top: 2%;
+}
+
+#buttons {
+ margin-left: 30%;
+}
+
+/* Fonts */
+@font-face {
+ font-family: 'Kenney Future';
+ src: url('fonts/Kenney-Future.woff2') format('woff2'),
+  url('fonts/Kenney-Future.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'Kenney Future Narrow';
+ src: url('fonts/Kenney-Future-Narrow.woff2') format('woff2'),
+  url('fonts/Kenney-Future-Narrow.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+
+#background {
+ background-image: url(images/bkg.png);
+ background-repeat: repeat;
+ display: flex;
+ justify-content: center;
+ align-items: flex-start;
+}
+
+.function {
+ box-sizing: border-box;
+ border-radius: 10%;
+ border: 2px solid white;
+ background: url(images/green_button07.png);
+ background-repeat: no-repeat;
+ background-size: 9.5em 3em;
+ height: 3em;
+ width: 9.5em;
+ font-size: 1.5em;
+ font-family: 'Kenney Future';
+ font-weight: normal;
+ font-style: normal;
+ margin: 6px;
+ text-align: center;
+ padding: 6px 0;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#buttons {
+ display: flex;
+}
+
+#buttons a {
+ text-decoration: none;
+}
+
+.function:hover {
+ background: url(images/green_button09.png) no-repeat;
+ background-size: 9.3em 3em;
+ height: 3em;
+ width: 9.5em;
+}
+
+.left_button {
+ float: left;
+}
+
+.right_button {
+ float: left;
+}
+
+#w3c {
+ position: absolute;
+ bottom: 0;
+ right: 0;
+}
+
+#back {
+ position: absolute;
+ left: 0;
+ bottom: 50%;
+}
+
+#back:hover {
+ transform: scale(1.2);
+}
